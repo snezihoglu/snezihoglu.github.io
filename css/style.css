@@ -1,0 +1,212 @@
+
+body {
+  overflow-x: hidden; /* no horizontal scrolling */
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+header{
+	height: 2.8rem; /* 1rem=16px */
+	padding: 0.5rem 0; /* 0.5(right&left), 0(top&bottom) */
+} 
+/* bg, covering the whole first section */
+.hero-img{
+	position: relative;
+	background-image: url("../img/hero-img.webp");
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 500px;
+}
+
+.firstSection .container{
+	font-family: Chalkduster, fantasy;
+	color: black;
+	padding-top: 230px;
+}
+
+.firstSection .container h1{
+	font-size: 90px;
+	letter-spacing: 0.2em;
+}
+
+h1{
+	color: black;
+	font-family: Didot, serif;
+	margin-left: 30px;
+	padding-bottom: 30px;
+}
+
+h2{
+	color: #363430;
+	font-family: American Typewriter, serif;
+}
+
+.padd-parag{
+	padding-right: 25px;
+	font-size: 30px;
+}
+.margBtn{
+	margin-left: 165px;
+	margin-top: -50px;
+}
+
+/*to make embedded video responsive*/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#phoneNumber{
+	padding-left: 150px;
+	padding-top: 15px;
+}
+/*for all album images to be at the same width*/
+.smallWidth{
+	width: 200px;
+}
+
+/*for icon color*/
+.whiteTxt{
+	color: white;
+}
+.footerBg{
+	background-color: #202229;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+/*--------------------------------
+RESET
+---------------------------------*/
+*{
+  font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------
+GLOBAL
+---------------------------------*/
+
+
+p{
+  color: #767676;
+  line-height:23px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.sect {
+    padding: 130px 0;
+}
+.sect--brown{
+  background-color: #1d140b;
+}
+
+.sect--grey{
+  background-color: #ebebeb;
+}
+
+.sect--no-bottom{
+  padding-bottom: 0;
+}
+
+.sect--white-text{
+  color: #fff;
+}
+.col--inbl{
+  display: inline-block;
+   float: none;
+}
+.row--center{
+  text-align: center;
+
+}
+.row--small {
+  max-width: 960px;
+  margin:0 auto;
+}
+
+.row--margin{
+  margin-top: 65px;
+}
+
+/*--------------------------------
+BLOG IMAGES
+---------------------------------*/
+
+.last-articles {
+    margin-top: 50px;
+}
+.article-pre__img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   padding-bottom: 80%;
+}
+
+.article-pre {
+    background-color: #fff;
+}
+
+.article-pre__title {
+    letter-spacing: 1px;
+    font-size: 16px;
+  margin-top:0;
+    text-transform: uppercase;
+    font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.article-pre__date {
+    color: #767676;
+    line-height: 23px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+}
+
+.article-pre__info {
+    padding: 25px 20px 20px 20px;
+}
+.article-pre__ex {
+    margin: 0;
+    line-height: 22px;
+}
+
+.article-pre-1 .article-pre__img {
+    background-image: url('https://images.pexels.com/photos/374592/pexels-photo-374592.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+}
+
+.article-pre-2 .article-pre__img {
+    background-image: url('https://www.iawd.at/files/Image/news/Webinar.jpg');
+}
+
+.article-pre-3 .article-pre__img {
+    background-image: url('https://cdn2.vectorstock.com/i/1000x1000/46/26/international-students-day-poster-vector-18344626.jpg');
+}
+
+
+
+
+
+
+
